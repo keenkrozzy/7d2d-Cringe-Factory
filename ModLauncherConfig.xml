@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Servers>
-	<ServerGroup Name="Cringe Factory Server" Logo="https://raw.githubusercontent.com/keenkrozzy/7d2d-Cringe-Factory/refs/heads/main/Cringe_Factory_Banner.webp" Description="Mods for 7d2d v1.1">
-		<Server Name="Cringe Factory Server" Logo="https://raw.githubusercontent.com/keenkrozzy/7d2d-Cringe-Factory/refs/heads/main/Cringe_Factory_Banner.webp">
+	<ServerGroup Name="Cringe Factory Server" Logo="https://raw.githubusercontent.com/keenkrozzy/7d2d-Cringe-Factory/refs/heads/main/Cringe_Factory_Banner.png" Description="Mods for 7d2d v1.1">
+		<Server Name="Cringe Factory Server" Logo="https://raw.githubusercontent.com/keenkrozzy/7d2d-Cringe-Factory/refs/heads/main/Cringe_Factory_Banner.png">
 			<Description>
 Server design goals:
         Make higher level gameplay more interesting and challenging (level 60+).
