@@ -21,9 +21,9 @@ Modlets Included:
 	        <Discord>https://youtu.be/0rtV5esQT6I?si=g53AugeXBm8is0-r</Discord>
             <Twitter></Twitter>
             <WebSite>https://youtu.be/0rtV5esQT6I?si=g53AugeXBm8is0-r</WebSite>				
-			<DownloadMode>Clone</DownloadMode>
+			<DownloadMode>Release</DownloadMode>
 			<Downloads>
-				<Download>https://github.com/keenkrozzy/7d2d-Cringe-Factory/tree/main</Download>
+				<Download>https://github.com/keenkrozzy/7d2d-Cringe-Factory/releases</Download>
 			</Downloads>		
 		</Server>
 	</ServerGroup>
