@@ -216,7 +216,7 @@
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="3500"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="4500"/>
 			</effect_group>
 		</item>
 		<item name="vehicleDusterchassis">
