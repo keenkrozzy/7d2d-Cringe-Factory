@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="VanillaCookingMod" />
+	<DisplayName value="Cooking with Sweet Sexy Vanilla" />
+	<Description value="Adds 50 new cooking recipes and icons craftable from vanilla igredients." />
+	<Author value="Atimus7" />
+	<Version value="1.1" />
+	<Website value="TBD" />
+</xml>

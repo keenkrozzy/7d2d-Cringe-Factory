@@ -1,0 +1,89 @@
+<configs>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']">
+
+        <!-- Tier 1 Unlocks (Levels 2-10) -->
+        <display_entry icon="foodGrilledMeatSkewers,foodCrispyYuccaFries,foodSweetCornCake,foodBlueberryPancakes,foodCreamyMushroomSoup,drinkJarGoldenYuccaDrink,foodPumpkinSpiceBread,foodSweetPumpkinPie" name_key="foodT1-1,foodT1-2,foodT1-3,foodT1-4,drinkT1-1" has_quality="false" unlock_level="2,4,6,8,10">
+            <unlock_entry item="foodGrilledMeatSkewers,foodCrispyYuccaFries" unlock_tier="1"/>
+            <unlock_entry item="foodBlueberryPancakes,foodCreamyMushroomSoup" unlock_tier="2"/>
+            <unlock_entry item="drinkJarGoldenYuccaDrink,foodPumpkinCornbread,foodPumpkinSpiceBread" unlock_tier="3"/>
+            <unlock_entry item="foodCornFritters,foodGoldenrodCornbread,foodSweetCornCake" unlock_tier="4"/>
+            <unlock_entry item="foodYuccaFruitSalad,foodSweetPumpkinPie" unlock_tier="5"/>
+        </display_entry>
+
+        <!-- Tier 2 Unlocks (Levels 11-25) -->
+        <display_entry icon="foodHeartyOmelet,foodCornMushroomSoup,foodHoboChili,foodFishTacosDeluxe,foodWildGameStew,drinkJarYuccaShake" name_key="foodT2-1,foodT2-2,foodT2-3,foodT2-4,drinkT2-1" has_quality="false" unlock_level="11,13,16,18,22,25">
+            <unlock_entry item="foodHeartyOmelet,foodHoboChili" unlock_tier="1"/>
+            <unlock_entry item="foodFishTacosDeluxe,foodWildGameStew, foodCornMushroomSoup" unlock_tier="2"/>
+            <unlock_entry item="drinkJarYuccaShake,foodSavoryMeatballs" unlock_tier="3"/>
+            <unlock_entry item="foodSavoryFishStew,foodSpicyMeatWrap" unlock_tier="4"/>
+            <unlock_entry item="foodStuffedMushrooms,foodRoastedMushroomSkewers" unlock_tier="5"/>
+        </display_entry>
+
+        <!-- Tier 3 Unlocks (Levels 26-40) -->
+        <display_entry icon="foodHuntersFeast,foodSpicyChiliPot,foodCheesyCornCasserole,foodHerbInfusedMeat,foodGrilledVeggiePlatter,foodVeggieDelight,drinkJarChrysanthemumCooler" name_key="foodT3-1,foodT3-2,foodT3-3,foodT3-4,drinkT3-1" has_quality="false" unlock_level="26,30,34,38,40">
+            <unlock_entry item="foodHuntersFeast,foodCheesyCornCasserole" unlock_tier="1"/>
+            <unlock_entry item="foodHerbInfusedMeat,foodGrilledVeggiePlatter" unlock_tier="2"/>
+            <unlock_entry item="drinkJarChrysanthemumCooler,drinkJarHerbalEnergyDrink" unlock_tier="3"/>
+            <unlock_entry item="foodMushroomBroth,foodSpicyChiliPot,drinkJarSpicyChiliDrink" unlock_tier="4"/>
+            <unlock_entry item="foodSavoryBlueberrySoup,foodVeggieDelight" unlock_tier="5"/>
+        </display_entry>
+
+        <!-- Tier 4 Unlocks (Levels 41-60) -->
+        <display_entry icon="foodMeatloafSupreme,foodCannedStew,foodCannedMeatCasserole,foodPumpkinStew,foodHeartyCornBeanStew,drinkJarMintyFreshTea" name_key="foodT4-1,foodT4-2,foodT4-3,foodT4-4,drinkT4-1" has_quality="false" unlock_level="41,45,50,55,60">
+            <unlock_entry item="foodMeatloafSupreme,foodCannedMeatCasserole,foodCannedStew" unlock_tier="1"/>
+            <unlock_entry item="foodPumpkinStew,foodHeartyCornBeanStew" unlock_tier="2"/>
+            <unlock_entry item="drinkJarMintyFreshTea,foodYuccaPudding" unlock_tier="3"/>
+            <unlock_entry item="foodSpicyChiliMeatballs,foodCarrotPotatoMash" unlock_tier="4"/>
+            <unlock_entry item="foodFishPotatoPlatter,foodFishTacos" unlock_tier="5"/>
+        </display_entry>
+
+        <!-- Tier 5 Unlocks (Levels 61-100) -->
+        <display_entry icon="foodGoldenrodHerbalSoup,foodVegetableSkewers,foodGrilledVeggiePlatter,drinkJarSweetBlueberryJuice,drinkJarSuperSmoothie" name_key="foodT5-1,foodT5-2,foodT5-3,foodT5-4,drinkT5-1" has_quality="false" unlock_level="61,70,80,90,100">
+            <unlock_entry item="foodGoldenrodHerbalSoup,foodVegetableSkewers" unlock_tier="1"/>
+            <unlock_entry item="foodGrilledVeggiePlatter,drinkJarSweetBlueberryJuice" unlock_tier="2"/>
+            <unlock_entry item="drinkJarSuperSmoothie,drinkJarMintyFreshTea" unlock_tier="3"/>
+            <unlock_entry item="foodFishTacos,foodSauteedBlueberries" unlock_tier="4"/>
+            <unlock_entry item="foodHerbalMushroomSoup" unlock_tier="5"/>
+        </display_entry>
+
+        <effect_group>
+            <!-- Tier 1 Unlocks -->
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,100" value="1" tags="foodGrilledMeatSkewers,foodCrispyYuccaFries"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,100" value="1" tags="foodBlueberryPancakes,foodCreamyMushroomSoup"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,100" value="1" tags="drinkJarGoldenYuccaDrink,foodPumpkinCornbread,foodPumpkinSpiceBread"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,100" value="1" tags="foodCornFritters,foodGoldenrodCornbread,foodSweetCornCake"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="foodYuccaFruitSalad,foodSweetPumpkinPie"/>
+
+            <!-- Tier 2 Unlocks -->
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="foodHeartyOmelet,foodHoboChili"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="13,100" value="1" tags="foodFishTacosDeluxe,foodWildGameStew,foodCornMushroomSoup"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="16,100" value="1" tags="drinkJarYuccaShake,foodSavoryMeatballs"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="18,100" value="1" tags="foodSavoryFishStew,foodSpicyMeatWrap"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="22,100" value="1" tags="foodStuffedMushrooms,foodRoastedMushroomSkewers"/>
+
+            <!-- Tier 3 Unlocks -->
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,100" value="1" tags="foodHuntersFeast,foodCheesyCornCasserole"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="foodHerbInfusedMeat,foodGrilledVeggiePlatter"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="34,100" value="1" tags="drinkJarChrysanthemumCooler,drinkJarHerbalEnergyDrink"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="38,100" value="1" tags="foodMushroomBroth,drinkJarSpicyChiliDrink,foodSpicyChiliPot"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="foodSavoryBlueberrySoup,foodVeggieDelight"/>
+
+            <!-- Tier 4 Unlocks -->
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="41,100" value="1" tags="foodMeatloafSupreme,foodCannedMeatCasserole,foodCannedStew"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="foodPumpkinStew,foodHeartyCornBeanStew"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="drinkJarMintyFreshTea,foodYuccaPudding"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="foodSpicyChiliMeatballs,foodCarrotPotatoMash"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="foodFishPotatoPlatter,foodFishTacos"/>
+
+            <!-- Tier 5 Unlocks -->
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="61,100" value="1" tags="foodGoldenrodHerbalSoup,foodVegetableSkewers"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="foodGrilledVeggiePlatter,drinkJarSweetBlueberryJuice"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="drinkJarSuperSmoothie,drinkJarMintyFreshTea"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="foodFishTacos,foodSauteedBlueberries"/>
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="foodHerbalMushroomSoup"/>
+        </effect_group>
+
+    </append>
+
+</configs>

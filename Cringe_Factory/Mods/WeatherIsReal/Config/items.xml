@@ -1,0 +1,246 @@
+<configs>
+
+<!-- in verson 1.x TFP gave 80 points of resistance vs hot and cold temperatures to every outfit, rendering weather absolutely pointless. -->
+<!-- Outfits aren't enviro-suits, they are just armor - so, with the exception of 5 cold resistance for lumberjack hat/coat, ALL these buffs have been removed -->
+
+<!-- *** PRIMITIVE_ARMOR -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorPrimitiveHelmet']/effect_group[@name='PrimitiveHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorPrimitiveHelmet']/effect_group[@name='PrimitiveHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorPrimitiveOutfit']/effect_group[@name='PrimitiveOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorPrimitiveOutfit']/effect_group[@name='PrimitiveOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorPrimitiveGloves']/effect_group[@name='PrimitiveGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorPrimitiveGloves']/effect_group[@name='PrimitiveGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorPrimitiveBoots']/effect_group[@name='PrimitiveBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorPrimitiveBoots']/effect_group[@name='PrimitiveBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- LUMBERJACK -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorLumberjackHelmet']/effect_group[@name='LumberjackHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">5</set>
+<set xpath="/items/item[@name='armorLumberjackHelmet']/effect_group[@name='LumberjackHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorLumberjackOutfit']/effect_group[@name='LumberjackOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">5</set>
+<set xpath="/items/item[@name='armorLumberjackOutfit']/effect_group[@name='LumberjackOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorLumberjackGloves']/effect_group[@name='LumberjackGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorLumberjackGloves']/effect_group[@name='LumberjackGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorLumberjackBoots']/effect_group[@name='LumberjackBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorLumberjackBoots']/effect_group[@name='LumberjackBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** PREACHER -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorPreacherHelmet']/effect_group[@name='PreacherHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorPreacherHelmet']/effect_group[@name='PreacherHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorPreacherOutfit']/effect_group[@name='PreacherOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorPreacherOutfit']/effect_group[@name='PreacherOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorPreacherGloves']/effect_group[@name='PreacherGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorPreacherGloves']/effect_group[@name='PreacherGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorPreacherBoots']/effect_group[@name='PreacherBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorPreacherBoots']/effect_group[@name='PreacherBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** ROGUE -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorRogueHelmet']/effect_group[@name='RogueHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRogueHelmet']/effect_group[@name='RogueHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorRogueOutfit']/effect_group[@name='RogueOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRogueOutfit']/effect_group[@name='RogueOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorRogueGloves']/effect_group[@name='RogueGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRogueGloves']/effect_group[@name='RogueGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorRogueBoots']/effect_group[@name='RogueBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRogueBoots']/effect_group[@name='RogueBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** ATHLETIC -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorAthleticHelmet']/effect_group[@name='AthleticHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorAthleticHelmet']/effect_group[@name='AthleticHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorAthleticOutfit']/effect_group[@name='AthleticOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorAthleticOutfit']/effect_group[@name='AthleticOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorAthleticGloves']/effect_group[@name='AthleticGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorAthleticGloves']/effect_group[@name='AthleticGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorAthleticBoots']/effect_group[@name='AthleticBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorAthleticBoots']/effect_group[@name='AthleticBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** ENFORCER -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorEnforcerHelmet']/effect_group[@name='EnforcerHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorEnforcerHelmet']/effect_group[@name='EnforcerHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorEnforcerOutfit']/effect_group[@name='EnforcerOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorEnforcerOutfit']/effect_group[@name='EnforcerOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorEnforcerGloves']/effect_group[@name='EnforcerGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorEnforcerGloves']/effect_group[@name='EnforcerGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorEnforcerBoots']/effect_group[@name='EnforcerBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorEnforcerBoots']/effect_group[@name='EnforcerBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** FARMER -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorFarmerHelmet']/effect_group[@name='FarmerHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorFarmerHelmet']/effect_group[@name='FarmerHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorFarmerOutfit']/effect_group[@name='FarmerOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorFarmerOutfit']/effect_group[@name='FarmerOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorFarmerGloves']/effect_group[@name='FarmerGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorFarmerGloves']/effect_group[@name='FarmerGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorFarmerBoots']/effect_group[@name='FarmerBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorFarmerBoots']/effect_group[@name='FarmerBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** BIKER -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorBikerHelmet']/effect_group[@name='BikerHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorBikerHelmet']/effect_group[@name='BikerHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorBikerOutfit']/effect_group[@name='BikerOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorBikerOutfit']/effect_group[@name='BikerOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorBikerGloves']/effect_group[@name='BikerGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorBikerGloves']/effect_group[@name='BikerGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorBikerBoots']/effect_group[@name='BikerBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorBikerBoots']/effect_group[@name='BikerBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** SCAVENGER -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorScavengerHelmet']/effect_group[@name='ScavengerHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorScavengerHelmet']/effect_group[@name='ScavengerHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorScavengerOutfit']/effect_group[@name='ScavengerOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorScavengerOutfit']/effect_group[@name='ScavengerOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorScavengerGloves']/effect_group[@name='ScavengerGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorScavengerGloves']/effect_group[@name='ScavengerGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorScavengerBoots']/effect_group[@name='ScavengerBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorScavengerBoots']/effect_group[@name='ScavengerBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** RANGER -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorRangerHelmet']/effect_group[@name='RangerHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRangerHelmet']/effect_group[@name='RangerHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorRangerOutfit']/effect_group[@name='RangerOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRangerOutfit']/effect_group[@name='RangerOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorRangerGloves']/effect_group[@name='RangerGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRangerGloves']/effect_group[@name='RangerGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorRangerBoots']/effect_group[@name='RangerBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRangerBoots']/effect_group[@name='RangerBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** COMMANDO -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorCommandoHelmet']/effect_group[@name='CommandoHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorCommandoHelmet']/effect_group[@name='CommandoHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorCommandoOutfit']/effect_group[@name='CommandoOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorCommandoOutfit']/effect_group[@name='CommandoOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorCommandoGloves']/effect_group[@name='CommandoGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorCommandoGloves']/effect_group[@name='CommandoGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorCommandoBoots']/effect_group[@name='CommandoBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorCommandoBoots']/effect_group[@name='CommandoBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** ASSASSIN -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorAssassinHelmet']/effect_group[@name='AssassinHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorAssassinHelmet']/effect_group[@name='AssassinHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorAssassinOutfit']/effect_group[@name='AssassinOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorAssassinOutfit']/effect_group[@name='AssassinOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorAssassinGloves']/effect_group[@name='AssassinGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorAssassinGloves']/effect_group[@name='AssassinGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorAssassinBoots']/effect_group[@name='AssassinBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorAssassinBoots']/effect_group[@name='AssassinBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** MINER -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorMinerHelmet']/effect_group[@name='MinerHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorMinerHelmet']/effect_group[@name='MinerHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorMinerOutfit']/effect_group[@name='MinerOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorMinerOutfit']/effect_group[@name='MinerOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorMinerGloves']/effect_group[@name='MinerGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorMinerGloves']/effect_group[@name='MinerGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorMinerBoots']/effect_group[@name='MinerBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorMinerBoots']/effect_group[@name='MinerBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** NOMAD -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorNomadHelmet']/effect_group[@name='NomadHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorNomadHelmet']/effect_group[@name='NomadHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorNomadOutfit']/effect_group[@name='NomadOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorNomadOutfit']/effect_group[@name='NomadOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorNomadGloves']/effect_group[@name='NomadGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorNomadGloves']/effect_group[@name='NomadGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorNomadBoots']/effect_group[@name='NomadBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorNomadBoots']/effect_group[@name='NomadBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** NERD -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorNerdHelmet']/effect_group[@name='NerdHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorNerdHelmet']/effect_group[@name='NerdHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorNerdOutfit']/effect_group[@name='NerdOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorNerdOutfit']/effect_group[@name='NerdOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorNerdGloves']/effect_group[@name='NerdGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorNerdGloves']/effect_group[@name='NerdGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorNerdBoots']/effect_group[@name='NerdBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorNerdBoots']/effect_group[@name='NerdBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+<!-- *** RAIDER -->
+
+<!-- *** HELMET -->
+<set xpath="/items/item[@name='armorRaiderHelmet']/effect_group[@name='RaiderHelmet']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRaiderHelmet']/effect_group[@name='RaiderHelmet']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** OUTFIT -->
+<set xpath="/items/item[@name='armorRaiderOutfit']/effect_group[@name='RaiderOutfit']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRaiderOutfit']/effect_group[@name='RaiderOutfit']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** GLOVES -->
+<set xpath="/items/item[@name='armorRaiderGloves']/effect_group[@name='RaiderGloves']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRaiderGloves']/effect_group[@name='RaiderGloves']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+<!-- *** BOOTS -->
+<set xpath="/items/item[@name='armorRaiderBoots']/effect_group[@name='RaiderBoots']/passive_effect[@name='HypothermalResist'][@operation='base_add']/@value">0</set>
+<set xpath="/items/item[@name='armorRaiderBoots']/effect_group[@name='RaiderBoots']/passive_effect[@name='HyperthermalResist'][@operation='base_add']/@value">0</set>
+
+</configs>

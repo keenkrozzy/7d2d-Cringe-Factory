@@ -1,0 +1,305 @@
+<configs>
+
+    <append xpath="/recipes">
+
+    <recipe name="foodHuntersFeast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="2"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCropPotato" count="1"/>
+    <ingredient name="foodCropMushrooms" count="1"/>
+    </recipe>
+
+    <recipe name="foodSavoryFishStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSalmon" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodVeggieDelight" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropBlueberries" count="1"/>
+    <ingredient name="foodCropYuccaFruit" count="1"/>
+    </recipe>
+
+    <recipe name="foodSpicyChiliPot" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanChili" count="1"/>
+    <ingredient name="foodRawMeat" count="2"/>
+    <ingredient name="foodCropCorn" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodBlueberryPancakes" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropBlueberries" count="3"/>
+    <ingredient name="foodCornMeal" count="2"/>
+    <ingredient name="foodEgg" count="1"/>
+    </recipe>
+
+    <recipe name="foodGrilledMeatSkewers" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="3"/>
+    <ingredient name="foodCropYuccaFruit" count="1"/>
+    </recipe>
+
+    <recipe name="foodCreamyMushroomSoup" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodSweetPumpkinPie" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="2"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="2"/>
+    </recipe>
+
+    <recipe name="foodCannedMeatCasserole" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSham" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="drinkJarGoldenYuccaDrink" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropYuccaFruit" count="2"/>
+    <ingredient name="drinkJarGoldenRodTea" count="1"/>
+    </recipe>
+
+    <recipe name="foodHoboChili" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanCatfood" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropMushrooms" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodPumpkinCornbread" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="1"/>
+    <ingredient name="foodCornMeal" count="2"/>
+    </recipe>
+
+    <recipe name="foodFishTacosDeluxe" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSalmon" count="1"/>
+    <ingredient name="foodCornMeal" count="2"/>
+    <ingredient name="foodCropYuccaFruit" count="1"/>
+    </recipe>
+
+    <recipe name="foodCrispyYuccaFries" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropYuccaFruit" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    </recipe>
+
+    <recipe name="foodWildGameStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="3"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodCornFritters" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCornMeal" count="2"/>
+    <ingredient name="foodEgg" count="1"/>
+    </recipe>
+
+    <recipe name="foodHeartyOmelet" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodEgg" count="2"/>
+    <ingredient name="foodRawMeat" count="2"/>
+    <ingredient name="foodCropBlueberries" count="2"/>
+    </recipe>
+
+    <recipe name="foodSweetCornCake" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="3"/>
+    <ingredient name="foodCropYuccaFruit" count="1"/>
+    <ingredient name="foodEgg" count="1"/>
+    </recipe>
+
+    <recipe name="foodGoldenrodHerbalSoup" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkJarGoldenRodTea" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropYuccaFruit" count="1"/>
+    </recipe>
+
+    <recipe name="foodRoastedMushroomSkewers" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    </recipe>
+
+    <recipe name="foodPumpkinStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="2"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodSavoryMeatballs" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="3"/>
+    <ingredient name="foodCropPotato" count="1"/>
+    <ingredient name="foodEgg" count="1"/>
+    </recipe>
+
+    <recipe name="drinkJarYuccaShake" count="1" craft_area="workbench">
+    <ingredient name="foodCropYuccaFruit" count="2"/>
+    <ingredient name="foodCropBlueberries" count="1"/>
+    <ingredient name="resourceSnowBall" count="1"/>
+    </recipe>
+
+    <recipe name="foodCornMushroomSoup" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodSpicyMeatWrap" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="2"/>
+    <ingredient name="foodCanChili" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    </recipe>
+
+    <recipe name="foodGoldenrodCornbread" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="2"/>
+    <ingredient name="drinkJarGoldenRodTea" count="1"/>
+    </recipe>
+
+    <recipe name="foodSauteedBlueberries" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropBlueberries" count="3"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    </recipe>
+
+    <recipe name="foodHerbalMushroomSoup" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="drinkJarGoldenRodTea" count="1"/>
+    <ingredient name="foodCropYuccaFruit" count="1"/>
+    </recipe>
+
+    <recipe name="foodYuccaFruitSalad" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropYuccaFruit" count="2"/>
+    <ingredient name="foodCropBlueberries" count="2"/>
+    <ingredient name="foodCropCorn" count="1"/>
+    </recipe>
+
+    <recipe name="foodCheesyCornCasserole" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="foodEgg" count="1"/>
+    </recipe>
+
+    <recipe name="foodStuffedMushrooms" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropMushrooms" count="3"/>
+    <ingredient name="foodRawMeat" count="1"/>
+    <ingredient name="foodEgg" count="1"/>
+    </recipe>
+
+    <recipe name="foodPumpkinSpiceBread" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="2"/>
+    <ingredient name="foodCornMeal" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodSavoryBlueberrySoup" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropBlueberries" count="3"/>
+    <ingredient name="foodCropMushrooms" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodMeatloafSupreme" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="3"/>
+    <ingredient name="foodCornMeal" count="2"/>
+    <ingredient name="foodCropPotato" count="1"/>
+    </recipe>
+
+    <recipe name="foodVegetableSkewers" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropYuccaFruit" count="1"/>
+    </recipe>
+
+    <recipe name="foodCannedStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSham" count="1"/>
+    <ingredient name="foodCropCorn" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodFishPotatoPlatter" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSalmon" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodSpicyChiliMeatballs" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanChili" count="1"/>
+    <ingredient name="foodRawMeat" count="2"/>
+    <ingredient name="foodCropPotato" count="1"/>
+    </recipe>
+
+    <recipe name="foodYuccaPudding" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropYuccaFruit" count="2"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodHeartyCornBeanStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCanStock" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="foodCarrotPotatoMash" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropYuccaFruit" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    </recipe>
+
+    <recipe name="foodHerbInfusedMeat" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="2"/>
+    <ingredient name="drinkJarGoldenRodTea" count="1"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    </recipe>
+
+    <recipe name="foodGrilledVeggiePlatter" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    </recipe>
+
+    <recipe name="foodMushroomBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="drinkJarSweetBlueberryJuice" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropBlueberries" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="drinkJarChrysanthemumCooler" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <ingredient name="resourceSnowBall" count="1"/>
+    </recipe>
+
+    <recipe name="drinkJarHerbalEnergyDrink" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkJarGoldenRodTea" count="1"/>
+    <ingredient name="foodCropYuccaFruit" count="2"/>
+    <ingredient name="foodCropBlueberries" count="2"/>
+    </recipe>
+
+    <recipe name="drinkJarSpicyChiliDrink" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanChili" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="drinkJarSuperSmoothie" count="1" craft_area="Workbench">
+    <ingredient name="foodCropYuccaFruit" count="2"/>
+    <ingredient name="foodCropBlueberries" count="2"/>
+    <ingredient name="drinkJarRedTea" count="1"/>
+    <ingredient name="resourceSnowBall" count="1"/>
+    </recipe>
+
+    <recipe name="drinkJarMintyFreshTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+    <ingredient name="drinkJarGoldenRodTea" count="1"/>
+    </recipe>
+
+    </append>
+</configs>
